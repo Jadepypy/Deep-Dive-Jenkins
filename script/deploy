@@ -1,0 +1,4 @@
+#!/bin/sh
+npm install
+npm install -g nodemon pm2
+pm2 start app.js
